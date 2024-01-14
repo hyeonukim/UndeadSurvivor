@@ -10802,6 +10802,7 @@ MonoBehaviour:
   inputVec: {x: 0, y: 0}
   speed: 3
   scanner: {fileID: 0}
+  hands: []
 --- !u!70 &858532532
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
