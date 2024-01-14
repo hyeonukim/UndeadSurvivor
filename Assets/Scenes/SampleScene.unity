@@ -201,7 +201,7 @@ MonoBehaviour:
   id: 0
   preafbId: 1
   damage: 5
-  count: 1
+  count: 0
   speed: 0
 --- !u!1 &97791048
 GameObject:
@@ -4657,7 +4657,7 @@ MonoBehaviour:
   id: 1
   preafbId: 2
   damage: 3
-  count: 0
+  count: 1
   speed: 0
 --- !u!1 &276168675
 GameObject:
@@ -5149,6 +5149,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameTime: 0
   maxGameTime: 20
+  level: 0
+  kill: 0
+  exp: 0
+  nextExp: 03000000050000000a0000006400000096000000d20000001801000068010000c201000058020000
   pool: {fileID: 464946293}
   player: {fileID: 858532531}
 --- !u!4 &762231609
