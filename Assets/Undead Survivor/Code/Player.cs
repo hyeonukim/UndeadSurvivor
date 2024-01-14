@@ -23,22 +23,29 @@ public class Player : MonoBehaviour
         hands = GetComponentsInChildren<Hand>(true);
     }
 
+    private void Update() {
+        if (!GameManager.instance.isLive){
+            return;
+        }
+
+        inputVec.x = Input.GetAxisRaw("Horizontal");
+        inputVec.y = Input.GetAxisRaw("Vertical");
+    }
+
     void FixedUpdate()
     {
-        // rigid.AddForce(inputVec);
-
-        // rigid.velocity =inputVec;
+        if (!GameManager.instance.isLive){
+            return;
+        }
         Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
     }
 
-    void OnMove(InputValue value)
-    {
-        inputVec = value.Get<Vector2>();
-    }
-
     void LateUpdate()
     {
+        if (!GameManager.instance.isLive){
+            return;
+        }
         anim.SetFloat("Speed", inputVec.magnitude);
 
         if ( inputVec.x != 0 ) {
