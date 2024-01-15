@@ -7893,7 +7893,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Kill
 
-    10 Undeads'
+    100 Undeads'
 --- !u!222 &759649036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7933,7 +7933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLive: 0
   gameTime: 0
-  maxGameTime: 20
+  maxGameTime: 300
   playerId: 0
   level: 0
   kill: 0
