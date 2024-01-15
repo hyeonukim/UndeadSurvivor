@@ -1,5 +1,24 @@
 # UndeadSurvivor
 
+## Screenshot of Gameplay 
+
+### Main Menu
+
+![image](https://github.com/hyeonukim/UndeadSurvivor/assets/48634064/57b11be9-0dc6-4779-8fb4-3b1bf9003687)
+
+### Gameplay
+
+![image](https://github.com/hyeonukim/UndeadSurvivor/assets/48634064/9db63b5e-b657-4fa6-9175-4be5c2709f5f)
+
+### Level up UI
+
+![image](https://github.com/hyeonukim/UndeadSurvivor/assets/48634064/bd66dee0-6194-46b8-b40f-4a2ce65d8cc4)
+
+### Victory Screen
+
+![image](https://github.com/hyeonukim/UndeadSurvivor/assets/48634064/ecfc25ae-8c7e-49e1-8f5e-ccb8e8583378)
+
+
  ## Table of Contents
 
 - [AchieveManager](#achievemanager)
