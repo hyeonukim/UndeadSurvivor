@@ -7940,7 +7940,7 @@ MonoBehaviour:
   exp: 0
   health: 0
   maxHealth: 100
-  nextExp: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  nextExp: 03000000050000000a0000006400000096000000d20000001801000068010000c201000058020000
   pool: {fileID: 464946293}
   player: {fileID: 858532531}
   uiLevelUp: {fileID: 1529524092}
@@ -12526,6 +12526,8 @@ MonoBehaviour:
   animCon:
   - {fileID: 9100000, guid: 72c698d48d0329c439757cfd4037afb6, type: 2}
   - {fileID: 22100000, guid: e463075103f23e644acfef6f0770f39c, type: 2}
+  - {fileID: 22100000, guid: 4a1c9a7c5972ec74aa54d391229cec21, type: 2}
+  - {fileID: 22100000, guid: b7c675f948a92ff4cbf16f92185bd883, type: 2}
 --- !u!70 &858532532
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -21357,18 +21359,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: []
   spawnData:
-  - spawnTime: 0.7
+  - spawnTime: 0.2
     spriteType: 0
     health: 10
     speed: 1.5
-  - spawnTime: 0.2
+  - spawnTime: 0.1
     spriteType: 1
     health: 15
     speed: 2.4
-  - spawnTime: 0.2
+  - spawnTime: 0.05
     spriteType: 2
-    health: 15
-    speed: 2.4
+    health: 30
+    speed: 3
+  levelTime: 0
 --- !u!1 &2054581496
 GameObject:
   m_ObjectHideFlags: 0
